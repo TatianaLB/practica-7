@@ -1,6 +1,6 @@
 # practica-7
 PERSISTENCIA CON QUERIES
-Desarrollo de una App de Spring Boot 
+<br>Desarrollo de una App de Spring Boot 
 <br> que incluya una funcionalidad que permita persistir información utilizando 
 <br> la librería Spring Data JDBC con una base de datos H2.
 
