@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add-Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<center>
+    <div class="pb-5 pt-4"  id="titulo">
+        <h1 style="margin-bottom:0px !important;">Añade una nueva tienda</h1>
+
+    </div>
+
+    <div id="formulario">
+        <form action="index.html">
+            <label for="idTienda">ID: </label>
+            <input type="text" placeholder="1234" id="idTienda">
+            <br><br>
+            <label for="nombre">Nombre de la tienda: </label>
+            <input type="text" placeholder="Derrochando swag" id="nombre">
+            <br><br>
+            <label for="ciudad">Ciudad: </label>
+            <input type="text" placeholder="Murcia" id="ciudad">
+            <br><br>
+            <label for="direccion">Dirección: </label>
+            <input type="text" placeholder="C Preciados 32" id="direccion">
+            <br><br>
+            <label for="telefono">Teléfono: </label>
+            <input type="text" placeholder="674389076" id="telefono">
+            <br><br>
+            <label for="horario">Horario: </label>
+            <input type="text" placeholder="10:00-21:00" id="horario">
+            <br><br>
+
+        </form>
+        <br>
+        <button onclick="AddTienda()">Añadir</button>
+    </div>
+
+</center>
+
+<script src="addTienda.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
