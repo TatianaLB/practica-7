@@ -5,4 +5,5 @@ Desarrollo de una App de Spring Boot
 <br> la librería Spring Data JDBC con una base de datos H2.
 
 El módulo de persistencia debe incluir las operaciones 
-<br< (INSERT, UPDATE, SELECT y DELETE)
+<br>
+(INSERT, UPDATE, SELECT y DELETE)
